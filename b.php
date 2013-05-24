@@ -48,7 +48,7 @@ class APP
             $path = CH_PATH;
 
         $file = $path.$class.'.php';
-        echo $path.'<br>';
+        echo $file.'<br>';
         if(file_exists($file))
         {
             include $file;

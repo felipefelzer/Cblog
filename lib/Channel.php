@@ -18,7 +18,6 @@ class Channel extends APP
 
     public function OpenCh()
     {
-        var_dump($this->_channelList);
         foreach( $this->_channelList as $key => $value )
         {
             if( $value = 'true' )
@@ -33,7 +32,6 @@ class Channel extends APP
         }
 
         $b = new CHBlog();
-        var_dump($this->_channelList);
         return $this;
     }
 

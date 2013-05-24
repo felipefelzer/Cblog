@@ -5,10 +5,6 @@ class Config
 
     private static $_conf = null;
 
-    public function __construct()
-    {
-    }
-
     /*
      *  SetConf
      *  @$config 二维数组
